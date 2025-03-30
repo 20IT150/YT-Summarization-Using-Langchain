@@ -19,7 +19,7 @@ with st.sidebar:
 generic_url=st.text_input("URL",label_visibility="collapsed")
 
 ## Gemma Model USsing Groq API
-llm = ChatGroq(model="llama-3-8b-instruct", groq_api_key=groq_api_key)
+llm = ChatGroq(model="llama-3-8b-instruct", groq_api_key=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)
 
 prompt_template="""
 Provide a summary of the following content in 300 words:
